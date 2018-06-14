@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#80000000"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/wechatParentContent"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/wechat_image"
+            android:scaleType="fitXY"
+            android:layout_width="290dp"
+            android:layout_height="390dp" />
+
+        <ImageView
+            android:id="@+id/cancel_button"
+            android:layout_marginTop="40dp"
+            android:layout_width="50dp"
+            android:background="@mipmap/fork"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

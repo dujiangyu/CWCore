@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item >
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_pressed="true"
+                  android:drawable="@mipmap/float_button_back">
+                <shape android:shape="oval">
+                    <corners android:radius="10dp" />
+                    <solid android:color="#fffdfd" />
+                    <size
+                        android:width="100dp"
+                        android:height="200dp" />
+                </shape>
+            </item>
+
+            <item android:drawable="@mipmap/float_button_back" android:width="10dp" android:height="10dp" />
+        </selector>
+    </item>
+</layer-list>

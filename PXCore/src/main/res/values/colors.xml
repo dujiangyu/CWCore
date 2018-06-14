@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="downLoadStr">#F98E0E</color>
+    <color name="mainColor">#F2F2F2</color>
+    <color name="transformed">#333333</color>
+
+    <color name="tab_font_bright">#FF0137</color><!-- 主色调 -->
+    <color name="review_remind">#FE4D04</color><!-- 主色调 -->
+    <color name="firstText">#323232</color><!-- 主色调 -->
+    <color name="warningText">#F71E35</color><!-- 主色调 -->
+
+
+</resources>
