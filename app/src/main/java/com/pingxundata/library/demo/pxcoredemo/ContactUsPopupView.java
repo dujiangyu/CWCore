@@ -70,7 +70,7 @@ public class ContactUsPopupView extends BasePopupWindow implements View.OnClickL
                 dismiss();
                 break;
             case R.id.tv_right:
-                Intent phoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "400-862-2287"));
+                Intent phoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "15723372456"));
                 getContext().startActivity(phoneIntent);
                 break;
             default:
