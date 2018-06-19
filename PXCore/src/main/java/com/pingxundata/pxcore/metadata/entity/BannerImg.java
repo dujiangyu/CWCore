@@ -7,6 +7,7 @@ public class BannerImg {
 
     private int pageNo;
     private int sizePerPage;
+    private String jumpUrl;
     private String sortDirection;
     private String sortFields;
     private String id;
@@ -76,5 +77,13 @@ public class BannerImg {
 
     public void setBannerPosition(String bannerPosition) {
         this.bannerPosition = bannerPosition;
+    }
+
+    public String getJumpUrl() {
+        return jumpUrl;
+    }
+
+    public void setJumpUrl(String jumpUrl) {
+        this.jumpUrl = jumpUrl;
     }
 }
